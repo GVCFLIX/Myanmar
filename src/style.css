@@ -18,7 +18,6 @@
 /* for scroll smooth  */
 html{
     scroll-behavior: smooth;
-    background-color: var(--purple);
 }
 
 /* navbar section start  */
@@ -82,10 +81,10 @@ html{
 /* navbar section end  */
 
 /* home section start  */
-.home{
+/* .home{
     height: 100vh;
     background-color: #E3EBFE;
-}
+} */
 .mk-home-col{
     padding-left: 20px;
 }
@@ -104,9 +103,16 @@ html{
 .name span{
     color: var(--yellow);
 }
-.mk-home-p{
+.learn-more{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: 20px;
-    margin-top: 25px;
+    transition: all 0.5s;
+}
+.learn-more:hover{
+    color: red;
 }
 .mk-home-title{
     font-size: 50px;
@@ -117,6 +123,8 @@ html{
     color: var(--yellow);
 }
 .mk-home-p{
+    font-size: 20px;
+    margin-top: 25px;
     text-align: justify;
     align-items: center;
     margin-right: 20px;
@@ -133,6 +141,73 @@ html{
 }
 /* home section end  */
 
+
+/* about section start  */
+#about{
+    height: 100vh;
+    /* background: var(--purple);    */
+}
+.mk-about-row1{
+    padding-top: 25px;
+}
+.mk-about-row1 h1{
+    font-size: 50px;
+}
+.mk-about-row1 h1 span{
+    color: var(--yellow);
+}
+.mk-about-row1 p{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.mk-about-row2 .mk-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mk-about-row2 h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mk-about-row2 h1 span{
+    font-size: 20px;
+    color: rgb(194, 16, 16);
+}
+.mk-about-row2 h1 #span{
+font-size: 30px;
+color: var(--yellow);
+}
+.mk-exp .mk-exp-title{
+    font-size: 30px;
+    border-bottom: 2px solid var(--yellow);
+}
+.counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+}
+.counter span{
+    font-size: 30px;
+}
+.counter h3{
+    font-size: 20px;
+}
+.counter .box{
+    width: 250px;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+.mk-btn{
+    margin-bottom: 10px;
+}
+/* about section end  */
 
 
 
@@ -251,7 +326,13 @@ html{
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-    /* .mk-home-col2{
-        display: none;
-    } */
+    .home-one{
+        height: 100vh;
+    }
+    .mk-home-col2{
+        height: 100vh;
+    }
+    .mk-home-col2 img{
+        height: 100vh;
+    }
 }
