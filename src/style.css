@@ -73,7 +73,7 @@ html{
 }
 
 .nav-logo{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
 }
@@ -81,10 +81,9 @@ html{
 /* navbar section end  */
 
 /* home section start  */
-/* .home{
-    height: 100vh;
+#home{
     background-color: #E3EBFE;
-} */
+}
 .mk-home-col{
     padding-left: 20px;
 }
@@ -144,8 +143,8 @@ html{
 
 /* about section start  */
 #about{
-    height: 100vh;
-    /* background: var(--purple);    */
+    /* height: 100vh; */
+    background: var(--purple);   
 }
 .mk-about-row1{
     padding-top: 25px;
@@ -208,6 +207,11 @@ color: var(--yellow);
     margin-bottom: 10px;
 }
 /* about section end  */
+
+
+.mk-state{
+    height: 100vh;
+}
 
 
 

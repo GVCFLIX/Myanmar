@@ -15,3 +15,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
+$(document).ready(function () {
+    $('#example').DataTable();
+});
