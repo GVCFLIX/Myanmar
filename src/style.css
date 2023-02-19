@@ -209,8 +209,15 @@ color: var(--yellow);
 /* about section end  */
 
 
-.mk-state{
-    height: 100vh;
+.mk-state-cities ,.mk-cities-title{
+    background-color: var(--purple);
+}
+.mk-table-state ,.mk-table-cities{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mk-table-one{
+    margin-bottom: 20px;
 }
 
 
