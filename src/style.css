@@ -208,6 +208,7 @@ color: var(--yellow);
 }
 /* about section end  */
 
+/* State & cities Section start  */
 
 .mk-state-cities ,.mk-cities-title{
     background-color: var(--purple);
@@ -219,6 +220,26 @@ color: var(--yellow);
 .mk-table-one{
     margin-bottom: 20px;
 }
+
+/* State & cities section end  */
+
+/* famous place section start  */
+.mk-famous-place{
+    height: 100vh;
+    background-color: var(--purple);
+    padding-top: 20px;
+}
+.mk-famous-title span{
+    color: var(--yellow);
+}
+
+
+
+
+
+
+
+
 
 
 
